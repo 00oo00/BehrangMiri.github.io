@@ -1142,8 +1142,12 @@ Media
 ========================*/
 
 .media {
-	background: url(../images/home-bg.jpg) no-repeat scroll center center;
+	background: url(../images/home-bg2.jpg) no-repeat scroll center center;
 	height: 100vh;
+}
+
+.abc {
+	background-color: aquamarine;
 }
 
 .padd {
@@ -1152,6 +1156,16 @@ Media
 
 #SVT {
 	overflow: hidden;
+}
+
+#sverigesRadio {
+	position: absolute;
+}
+
+#sr {
+	width="100%" height="350" position: relative;
+	top: -60vh;
+	display: inline;
 }
 
 #metro {
@@ -1185,7 +1199,9 @@ Featured section style
 }
 
 
-/*Music Section*/
+/*
+Music section style
+========================*/
 
 #spotify {
 	display: flex;

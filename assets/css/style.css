@@ -1128,7 +1128,7 @@ News
 	padding-top: 6vh;
 }
 
-iframe {
+#latestNews {
 	width: 100%;
 	height: 140vh;
 	position: relative;
@@ -1148,6 +1148,14 @@ Media
 
 .padd {
 	height: 4.6vh;
+}
+
+#SVT {
+	overflow: hidden;
+}
+
+#metro {
+	background-color: white;
 }
 
 
@@ -1177,7 +1185,12 @@ Featured section style
 }
 
 
-/*Business Section*/
+/*Music Section*/
+
+#spotify {
+	display: flex;
+	justify-content: space-around;
+}
 
 .main_business {}
 
@@ -1430,6 +1443,12 @@ work Section style
 
 .brand {
 	background-color: black;
+	display: flex;
+}
+
+main_brand {
+	justify-content: space-around;
+	flex-flow: row;
 }
 
 .brand_item img {
@@ -1444,34 +1463,6 @@ work Section style
 	-webkit-filter: grayscale(0%);
 	/* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
-}
-
-
-/*call to action
-=========================*/
-
-.action_btn .btn-default:hover {
-	background-color: #fff;
-	color: #00a885;
-}
-
-.action-lage {
-	position: relative;
-	width: 100%;
-}
-
-.action-lage:before {
-	position: absolute;
-	content: "";
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 20px solid #00a885;
-	left: 50%;
-	top: 0%;
-	z-index: 3;
-	margin-left: -15px;
 }
 
 

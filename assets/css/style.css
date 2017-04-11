@@ -1027,7 +1027,7 @@ Home Section style
 ==================*/
 
 .home {
-	background: url(../images/home-bg.jpg) no-repeat scroll center center;
+	background: url(../images/home-bg.jpg) no-repeat scroll center right;
 	background-size: cover;
 	position: relative;
 	padding-top: 300px;
@@ -1125,7 +1125,7 @@ News
 }
 
 .news {
-	padding-top: 6vh;
+	padding-top: 5.5vh;
 }
 
 #latestNews {
@@ -1141,31 +1141,33 @@ News
 Media
 ========================*/
 
-.media {
-	background: url(../images/home-bg2.jpg) no-repeat scroll center center;
-	height: 100vh;
-}
+.media {}
 
 .abc {
-	background-color: aquamarine;
+	justify-content: space-around;
 }
 
 .padd {
 	height: 4.6vh;
 }
 
+TV {
+	top: 400px;
+}
+
 #SVT {
-	overflow: hidden;
+	overflow-y: hidden;
+	position: relative;
 }
 
 #sverigesRadio {
-	position: absolute;
+	float: right;
 }
 
 #sr {
-	width="100%" height="350" position: relative;
-	top: -60vh;
-	display: inline;
+	width="100%" height="120vh" position: relative;
+	top: -60;
+	overflow: hidden;
 }
 
 #metro {
@@ -1174,10 +1176,11 @@ Media
 
 
 /*
-Featured section style
+Bio section style
 ========================*/
 
 .features_item .f_item_icon {
+	
 	float: left;
 	width: 15%;
 	display: inline-block;
@@ -1203,12 +1206,20 @@ Featured section style
 Music section style
 ========================*/
 
+.business {
+	background: url(../images/home-bg2.jpg) no-repeat scroll center center;
+	height: 100vh;
+}
+
 #spotify {
 	display: flex;
 	justify-content: space-around;
+	;
 }
 
-.main_business {}
+
+
+E .main_business {}
 
 .business_item {}
 

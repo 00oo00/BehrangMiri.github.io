@@ -10,6 +10,10 @@ Author URI: http://www.xpeedstudio.com
 	body {
 		font-size: 1rem;
 	}
+	.logo {
+		width: 20vh;
+		float: right;
+	}
 }
 
 
@@ -91,6 +95,10 @@ Author URI: http://www.xpeedstudio.com
 	.main_product .carousel-control {
 		display: none;
 	}
+	.logo {
+		width: 20vh;
+		float: right;
+	}
 }
 
 
@@ -111,6 +119,16 @@ Author URI: http://www.xpeedstudio.com
 	spotify {
 		height: 80px;
 		margin-bottom: 20px;
+	}
+	.logo {
+		width: 20vh;
+		float: right;
+	}
+}
+
+@media (max-height: 569px) {
+	.home {
+		padding-top: 50vh;
 	}
 }
 

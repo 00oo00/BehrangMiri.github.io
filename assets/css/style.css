@@ -1180,7 +1180,7 @@ Radio section style
 Tidningar section style
 ========================*/
 .tidningar {
-	background: url(../images/tidningar-bg.jpeg) no-repeat scroll center right;
+	background: url(../images/tidningar-bg.jpg) no-repeat scroll center right;
 	background-size: cover;
 	height: 120vh;
 }
@@ -1331,8 +1331,22 @@ Video
 }
 
 /*
-work Section style
+Press Section style
 =====================*/
+.product {
+	height: 90vh;
+}
+.carousel {
+	height: 45vh;
+}
+.port_img {
+	max-height: 30vh;
+	overflow: hidden;
+}
+.port_item>.part {
+	max-height: 21.5vh;
+	overflow: hidden;
+}
 
 /*.slides{
     width:100%;
@@ -1387,7 +1401,7 @@ work Section style
 	top: 0;
 	padding-top: 35%;
 	opacity: 0;
-	transition: all 0.2s;
+	transition: all 2.6s;
 }
 .main_product .port_overlay a {
 	width: 40px;
@@ -1457,6 +1471,9 @@ work Section style
 
 /*Brand Section
 =========================*/
+.end {
+	height: 100vh;
+}
 .brand {
 	background-image: url(../images/cbrand-img8.jpg);
 	background-position: center;
@@ -1482,17 +1499,28 @@ main_brand {
 
 /*Footer section*/
 .footer {
-	max-height: 80vh;
+	background: url(../images/press2.jpeg) no-repeat scroll center right;
+	background-size: cover;
+	height:
 }
-.divider {
+* .divider {
 	width: 100%;
-	height: 1px;
-	background-color: #434769;
-	display: inline-block;
+	height: 6px;
+	display: flex;
 }
-.widget_ab_item_text h6 {
-	margin-bottom: -5px;
+.kontaktinfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:
 }
+.burlywood {
+	color: burlywood;
+}
+.text-uppercase .logo--img {
+	margin-left: auto;
+}
+.widget_ab_item_text h6 {}
 .widget_item h5 {
 	font-weight: 700;
 }
@@ -1590,5 +1618,5 @@ main_brand {
 	padding: 5px;
 }
 #tag {
-	color: white;
+	color: burlywood;
 }

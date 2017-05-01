@@ -683,6 +683,10 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
 	nav.navbar.bootsnav.navbar-fixed .logo-scrolled {
 		display: block;
 	}
+	.logo-scrolled {
+		height: 10px;
+		width: 20px;
+	}
 	/* Atribute Navigation
     =================================*/
 	.attr-nav>ul>li.dropdown ul.dropdown-menu {
@@ -952,7 +956,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
 		margin-bottom: 0;
 	}
 	nav.navbar.bootsnav.no-full .navbar-collapse {
-		max-height: 350px;
 		overflow-y: auto !important;
 	}
 	nav.navbar.bootsnav .navbar-collapse.collapse {

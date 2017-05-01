@@ -124,6 +124,20 @@ Author URI: http://www.xpeedstudio.com
 		width: 20vh;
 		float: right;
 	}
+	#latestNews {
+		width: 90vw;
+		margin-left: 5vw;
+	}
+	.news {
+		margin-top: -1vh;
+	}
+	.between {
+		padding-top: 10vh;
+	}
+	.ne {
+		padding-top: 3vh;
+		background-color: black;
+	}
 }
 
 @media (max-height: 569px) {
@@ -132,7 +146,22 @@ Author URI: http://www.xpeedstudio.com
 	}
 }
 
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+	.linkedin {
+		display: inline;
+		visibility: collapse;
+	}
+	.navbar-header {
+		margin-top: -45px;
+	}
+	#latestNews {
+		top: -65vh;
+		margin-bottom: -65vh;
+	}
+	.vid iframe {
+		width: 280px;
+	}
+}
 
 @media (max-width: 320px) {
 	html {

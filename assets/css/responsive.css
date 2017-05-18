@@ -148,6 +148,21 @@ Author URI: http://www.xpeedstudio.com
 		padding-top: 3vh;
 		background-color: black;
 	}
+	.media_mob {
+		margin-top: 20vh;
+		margin-bottom: 25vh;
+	}
+	.video {
+		height: 93vh;
+	}
+	.vid {
+		height: 200px;
+		overflow: hidden;
+		margin-bottom: 10vh;
+	}
+	.iphone6_press {
+		margin-top: 10vh;
+	}
 	.port_img {
 		max-height: 40vh;
 		overflow: hidden;

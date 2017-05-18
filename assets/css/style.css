@@ -1229,11 +1229,12 @@ Music section style
 	background: url(../images/home-bg2.jpg) no-repeat scroll center center;
 	height: 100vh;
 }
-#spotify {
-	display: flex;
-	justify-content: space-around;
-	;
+
+#deezer {
+	width: 450px;
+	height: 450px;
 }
+
 E .main_business {}
 .business_item {}
 .business_item h2 {

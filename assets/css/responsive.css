@@ -114,11 +114,15 @@ Author URI: http://www.xpeedstudio.com
 	.main_home .home_text h3 {
 		font-size: 17px;
 	}
-	.po iframe,
-	soundcloud,
-	spotify {
+	.po #soundcloud {
 		height: 80px;
 		margin-bottom: 20px;
+		width: 90vw;
+	}
+	#deezer {
+		width: 90vw;
+		height: 90vw;
+		margin-left: auto;
 	}
 	.logo {
 		width: 20vh;

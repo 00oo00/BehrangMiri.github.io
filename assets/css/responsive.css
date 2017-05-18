@@ -102,7 +102,7 @@ Author URI: http://www.xpeedstudio.com
 }
 
 
-/* Landscape phones and smaller */
+/* ihpone 6 */
 
 @media (max-width: 479px) {
 	html {
@@ -113,6 +113,12 @@ Author URI: http://www.xpeedstudio.com
 	}
 	.main_home .home_text h3 {
 		font-size: 17px;
+	}
+	#latestNews {
+		height: 140vh;
+		top: -63vh;
+		margin-bottom: -63vh;
+		margin-left: 25vw;
 	}
 	.po #soundcloud {
 		height: 80px;
@@ -141,6 +147,18 @@ Author URI: http://www.xpeedstudio.com
 	.ne {
 		padding-top: 3vh;
 		background-color: black;
+	}
+	.port_img {
+		max-height: 40vh;
+		overflow: hidden;
+	}
+	.port_item>.part,
+	#iphone6 {
+		max-height: 40vh;
+		overflow: hidden;
+	}
+	.port_caption {
+		visibility: collapse;
 	}
 }
 

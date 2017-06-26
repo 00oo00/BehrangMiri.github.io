@@ -1141,7 +1141,7 @@ News
 	width: 50vw;
 	height: 140vh;
 	position: relative;
-	top: -60vh;
+	top: -50vh;
 	margin-bottom: -60vh;
 	margin-left: 25vw;
 }
@@ -1229,12 +1229,10 @@ Music section style
 	background: url(../images/home-bg2.jpg) no-repeat scroll center center;
 	height: 100vh;
 }
-
 #deezer {
 	width: 450px;
 	height: 450px;
 }
-
 E .main_business {}
 .business_item {}
 .business_item h2 {

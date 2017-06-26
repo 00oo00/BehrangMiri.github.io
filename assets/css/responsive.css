@@ -1,207 +1,250 @@
-/*
-Author: Bootstrapthemes
-Author URI: http://www.xpeedstudio.com
-*/
-
-
-/* Portrait tablets and medium desktops */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-	body {
-		font-size: 1rem;
-	}
-	.logo {
-		width: 20vh;
-		float: right;
-	}
-}
-
-
-/* Portrait tablets and small desktops */
-
-
-/*@media (max-width: 992px) {
-
-}*/
-
-
-/* Portrait tablets and small desktops */
-
-@media (max-width: 991px) {
-	.sm-text-center {
-		text-align: center !important;
-	}
-	.sm-pull-none {
-		float: none !important;
-	}
-	.sm-m-top-10 {
-		margin-top: 10px;
-	}
-	.sm-m-top-20 {
-		margin-top: 20px;
-	}
-	.sm-m-top-30 {
-		margin-top: 30px;
-	}
-	.sm-m-top-40 {
-		margin-top: 40px;
-	}
-	.sm-m-top-50 {
-		margin-top: 50px;
-	}
-	.item_img i {
-		right: 0%;
-	}
-}
-
-
-/* Landscape phones and portrait tablets */
-
-@media (max-width: 768px) {
-	h2 {
-		font-size: 2rem;
-	}
-	p {
-		font-size: 90%;
-		line-height: 2rem;
-	}
-	.xs-pull-none {
-		float: none !important;
-	}
-	.xs-text-center {
-		text-align: center !important;
-	}
-	.xs-m-top-10 {
-		margin-top: 10px;
-	}
-	.xs-m-top-30 {
-		margin-top: 30px;
-	}
-	.xs-m-bottom-10 {
-		margin-bottom: 10px;
-	}
-	.xs-m-bottom-20 {
-		margin-bottom: 20px;
-	}
-	.main_home .home_text h2 {
-		font-size: 24px;
-	}
-	.main_home .home_text h1 {
-		font-size: 32px;
-	}
-	.main_home .home_text h3 {
-		font-size: 18px;
-	}
-	.main_product .carousel-control {
-		display: none;
-	}
-	.logo {
-		width: 20vh;
-		float: right;
-	}
-}
-
-
-/* ihpone 6 */
-
-@media (max-width: 479px) {
-	html {
-		font-size: 85%;
-	}
-	.main_home .home_text h1 {
-		font-size: 28px;
-	}
-	.main_home .home_text h3 {
-		font-size: 17px;
-	}
-	#latestNews {
-		height: 140vh;
-		top: -63vh;
-		margin-bottom: -63vh;
-		margin-left: 25vw;
-	}
-	.po #soundcloud {
-		height: 80px;
-		margin-bottom: 20px;
-		width: 90vw;
-	}
-	#deezer {
-		width: 90vw;
-		height: 90vw;
-		margin-left: auto;
-	}
-	.logo {
-		width: 20vh;
-		float: right;
-	}
-	#latestNews {
-		width: 90vw;
-		margin-left: 5vw;
-	}
-	.news {
-		margin-top: -1vh;
-	}
-	.between {
-		padding-top: 10vh;
-	}
-	.ne {
-		padding-top: 3vh;
-		background-color: black;
-	}
-	.media_mob {
-		margin-top: 20vh;
-		margin-bottom: 25vh;
-	}
-	.video {
-		height: 93vh;
-	}
-	.vid {
-		height: 200px;
-		overflow: hidden;
-		margin-bottom: 10vh;
-	}
-	.iphone6_press {
-		margin-top: 10vh;
-	}
-	.port_img {
-		max-height: 40vh;
-		overflow: hidden;
-	}
-	.port_item>.part,
-	#iphone6 {
-		max-height: 40vh;
-		overflow: hidden;
-	}
-	.port_caption {
-		visibility: collapse;
-	}
-}
-
-@media (max-height: 569px) {
-	.home {
-		padding-top: 50vh;
-	}
-}
-
-@media (max-width: 400px) {
-	.linkedin {
-		display: inline;
-		visibility: collapse;
-	}
-	.navbar-header {
-		margin-top: -45px;
-	}
-	#latestNews {
-		top: -65vh;
-		margin-bottom: -65vh;
-	}
-	.vid iframe {
-		width: 280px;
-	}
-}
-
-@media (max-width: 320px) {
-	html {
-		font-size: 60.5%;
-	}
-}
+			/* Surface pro 4      2736 x 1824*/
+		/* iPad pro landscape 1366 x 1024*/
+		/* Laptop with touch  1280 x 950 */
+		/*(styling för formaten ovan finns i tyle.css)*/
+		/* iPad pro portrait  1024 x 1366*/
+		/* iPad  	landscape 1024 x 768 */
+		
+		@media (max-width: 1199px) and (min-width: 92px) {
+			body {
+				font-size: 1rem;
+			}
+			.logo {
+				width: 20vh;
+				float: right;
+			}
+		}
+		/* Inga aktuella varumärken har detta format */
+		
+		@media (max-width: 991px) {
+			.sm-text-center {
+				text-align: center !important;
+			}
+			.sm-pull-none {
+				float: none !important;
+			}
+			.sm-m-top-10 {
+				margin-top: 10px;
+			}
+			.sm-m-top-20 {
+				margin-top: 20px;
+			}
+			.sm-m-top-30 {
+				margin-top: 30px;
+			}
+			.sm-m-top-40 {
+				margin-top: 40px;
+			}
+			.sm-m-top-50 {
+				margin-top: 50px;
+			}
+			.item_img i {
+				right: 0%;
+			}
+		}
+		/* iPad  	portrait   768 x 1024 */
+		
+		@media (max-width: 768px) {
+			h2 {
+				font-size: 2rem;
+			}
+			p {
+				font-size: 90%;
+				line-height: 2rem;
+			}
+			.xs-pull-none {
+				float: none !important;
+			}
+			.xs-text-center {
+				text-align: center !important;
+			}
+			.xs-m-top-10 {
+				margin-top: 10px;
+			}
+			.xs-m-top-30 {
+				margin-top: 30px;
+			}
+			.xs-m-bottom-10 {
+				margin-bottom: 10px;
+			}
+			.xs-m-bottom-20 {
+				margin-bottom: 20px;
+			}
+			.main_home .home_text h2 {
+				font-size: 24px;
+			}
+			.main_home .home_text h1 {
+				font-size: 32px;
+			}
+			.main_home .home_text h3 {
+				font-size: 18px;
+			}
+			.main_product .carousel-control {
+				display: none;
+			}
+			.logo {
+				width: 200px;
+				float: left;
+			}
+			.bussiness>roomy-80 {
+				padding-top: 0;
+			}
+		}
+		/* iPhone 6+ landscape 736 x 714 */
+		/* Nexus 5X landscape  732 x 412 */
+		/* iPhone 6+ portrait  714 x 736 */
+		/* iPhone 6 landscape  667 x 375 */
+		
+		@media (max-width: 670px) {
+			.between {
+				padding-top: 36.5px;
+			}
+			.news {
+				padding-top: 7.5px;
+			}
+			#latestNews {
+				width: 50vw;
+				height: 192vh;
+				position: relative;
+				top: -112vh;
+				margin-bottom: -60vh;
+				margin-left: 25vw;
+			}
+			.padd {
+				height: 36px;
+			}
+			.features {
+				margin-top: 10px;
+			}
+			.features_item>img {
+				height: 37vh;
+				margin-top: -28vh;
+				float: right;
+			}
+			.business {
+				height: 110vh;
+			}
+			#deezer,
+			#soundcloud {
+				margin-top: -90px;
+				width: 300px;
+				height: 300px;
+			}
+			#deezer {
+				float: right;
+			}
+			#video>#roomy-60 {
+				padding-top: 0;
+			}
+			.product {
+				height: 200vh;
+			}
+			.product {
+				margin-top: -10vh;
+			}
+			.main_product {}
+			/* Galaxy S5landscape  640 x 360 */
+			/* iPhone 5 landscape  568 x 320 */
+			@media (max-width: 479px) {
+				html {
+					font-size: 85%;
+				}
+				.main_home .home_text h1 {
+					font-size: 28px;
+				}
+				.main_home .home_text h3 {
+					font-size: 17px;
+				}
+				#latestNews {
+					height: 140vh;
+					top: -63vh;
+					margin-bottom: -63vh;
+					margin-left: 25vw;
+				}
+				.po #soundcloud {
+					height: 80px;
+					margin-bottom: 20px;
+					width: 90vw;
+				}
+				#deezer {
+					width: 90vw;
+					height: 90vw;
+					margin-left: auto;
+				}
+				.logo {
+					width: 20vh;
+					float: right;
+				}
+				#latestNews {
+					width: 90vw;
+					margin-left: 5vw;
+				}
+				.news {
+					margin-top: -1vh;
+				}
+				.between {
+					padding-top: 10vh;
+				}
+				.ne {
+					padding-top: 3vh;
+					background-color: black;
+				}
+				.media_mob {
+					margin-top: 20vh;
+					margin-bottom: 25vh;
+				}
+				.video {
+					height: 93vh;
+				}
+				.vid {
+					height: 200px;
+					overflow: hidden;
+					margin-bottom: 10vh;
+				}
+				.iphone6_press {
+					margin-top: 10vh;
+				}
+				.port_img {
+					max-height: 40vh;
+					overflow: hidden;
+				}
+				.port_item>.part,
+				#iphone6 {
+					max-height: 40vh;
+					overflow: hidden;
+				}
+				.port_caption {
+					visibility: collapse;
+				}
+			}
+			/*OBS! max-height */
+			@media (max-height: 569px) {
+				.home {
+					padding-top: 50vh;
+				}
+			}
+			/* Nexus 5X portrait   412 x 732 */
+			/* iPhone 6 portrait   375 x 667 */
+			/* Galaxy S5 portrait  360 x 640 */
+			@media (max-width: 400px) {
+				.linkedin {
+					display: inline;
+					visibility: collapse;
+				}
+				.navbar-header {
+					margin-top: -45px;
+				}
+				#latestNews {
+					top: -65vh;
+					margin-bottom: -65vh;
+				}
+				.vid iframe {
+					width: 280px;
+				}
+			}
+			/* iPhone 5 portrait   320 x 568 */
+			@media (max-width: 320px) {
+				html {
+					font-size: 60.5%;
+				}
+			}
